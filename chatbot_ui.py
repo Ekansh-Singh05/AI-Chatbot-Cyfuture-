@@ -3,8 +3,7 @@ import requests
 from rag_utils import query_rag
 import ollama
 
-# 👇 Manually configure Gemini API key here
-# configure_gemini_key("AIzaSyDRyNnzXXib-0bHBh1iRDbYOoGUF_PMPvY")
+
 
 st.set_page_config(page_title="AI Grievance Chatbot", page_icon="🤖")
 st.title("AI Grievance Chatbot")
